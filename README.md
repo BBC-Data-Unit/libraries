@@ -1,5 +1,7 @@
 # Library cuts: closures, volunteer numbers and staff cuts
 
+![Image from @BBCEngland](https://pbs.twimg.com/media/CetbYziWIAEw8N4.jpg)
+
 This repository contains data used in the story 'Libraries lose a quarter of staff as hundreds close', collected through Freedom of Information requests to library authorities across the UK. This data was complemented by analysis of [CIPFA reports](http://www.cipfa.org/services/statistics/comparative-profiles/public-libraries).
 
 The story was reported across the BBC, including the following articles online:
@@ -19,4 +21,5 @@ You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk
 ## Data
 
 * [FOI response data on closures, volunteers and staff](https://github.com/BBC-Data-Unit/libraries/blob/master/library_closures_BBC.csv)
+* [Percentage of libraries with wifi access in each authority (England only)](https://github.com/BBC-Data-Unit/libraries/blob/master/LibrariesWithWiFiPoints.csv)
 
