@@ -18,7 +18,7 @@ You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk
 
 [#libraries trended on Twitter](https://twitter.com/WeNeedLibraries/status/714758162704953347) throughout the morning. **BBC Breakfast** [created this short video for social media showing some key figures](https://twitter.com/BBCBreakfast/status/714703963078176768). You can [join in the discussion on their Facebook page](https://www.facebook.com/bbcbreakfast/videos/vb.127439507270196/1294853730528762/?type=2&theater) 
 
-You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk/programmes/b074x312), [Nicky Campbell and Eleanor Oldroyd on 5 Live Breakfast](http://www.bbc.co.uk/programmes/b074z5m5) and [Jeremy Vine on Radio 2 here (at 1230)](http://www.bbc.co.uk/programmes/b074lfpf). [BBC Breakfast created this short video for social media showing some key figures](https://twitter.com/BBCBreakfast/status/714703963078176768) and [#libraries trended on Twitter throughout the morning](https://twitter.com/WeNeedLibraries/status/714758162704953347).
+[BBC Breakfast created this short video for social media showing some key figures](https://twitter.com/BBCBreakfast/status/714703963078176768) and [#libraries trended on Twitter throughout the morning](https://twitter.com/WeNeedLibraries/status/714758162704953347).
 
 ## Data
 
