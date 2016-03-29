@@ -2,7 +2,7 @@
 
 ![Image from @BBCEngland](https://pbs.twimg.com/media/CetbYziWIAEw8N4.jpg)
 
-This repository contains data used in the story 'Libraries lose a quarter of staff as hundreds close', collected through Freedom of Information requests to library authorities across the UK. This data was complemented by analysis of [CIPFA reports](http://www.cipfa.org/services/statistics/comparative-profiles/public-libraries).
+This repository contains data used in the story 'Libraries lose a quarter of staff as hundreds close', collected through [Freedom of Information requests](https://github.com/BBC-Data-Unit/libraries/blob/master/FOI_request.md) to library authorities across the UK. This data was complemented by analysis of [CIPFA reports](http://www.cipfa.org/services/statistics/comparative-profiles/public-libraries).
 
 The story was reported across the BBC, including the following articles online:
 
