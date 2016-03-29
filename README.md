@@ -28,3 +28,4 @@ You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk
 
 * [FOI response data on closures, volunteers and staff](https://github.com/BBC-Data-Unit/libraries/blob/master/library_closures_BBC.csv)
 * [Percentage of libraries with wifi access in each authority (England only)](https://github.com/BBC-Data-Unit/libraries/blob/master/LibrariesWithWiFiPoints.csv)
+* [Book issues in 2012 and 2014 for authorities in England](https://github.com/BBC-Data-Unit/libraries/blob/master/LibrariesBookBorrowing.csv)
