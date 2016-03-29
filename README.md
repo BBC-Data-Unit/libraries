@@ -12,9 +12,11 @@ The story was reported across the BBC, including the following articles online:
 
 The reporting team was Peter Sherlock, Daniel Wainwright, Paul Bradshaw and Antia Geada.
 
-You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk/programmes/b074x312), [Nicky Campbell and Eleanor Oldroyd on 5 Live Breakfast](http://www.bbc.co.uk/programmes/b074z5m5) and [Jeremy Vine on Radio 2 here (at 1230)](http://www.bbc.co.uk/programmes/b074lfpf). [BBC Breakfast created this short video for social media showing some key figures](https://twitter.com/BBCBreakfast/status/714703963078176768) and [#libraries trended on Twitter throughout the morning](https://twitter.com/WeNeedLibraries/status/714758162704953347). 
+You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk/programmes/b074x312), [Nicky Campbell and Eleanor Oldroyd on 5 Live Breakfast](http://www.bbc.co.uk/programmes/b074z5m5) and [Jeremy Vine on Radio 2 here (at 1230)](http://www.bbc.co.uk/programmes/b074lfpf). 
 
-![Image from @bbc5live](https://pbs.twimg.com/media/CetKLYuWEAA8sFj.jpg)
+![Image from @bbc5live](https://pbs.twimg.com/media/Ces4VfHWEAAfliU.jpg)
+
+[BBC Breakfast created this short video for social media showing some key figures](https://twitter.com/BBCBreakfast/status/714703963078176768) and [#libraries trended on Twitter throughout the morning](https://twitter.com/WeNeedLibraries/status/714758162704953347). 
 
 ## Data
 
