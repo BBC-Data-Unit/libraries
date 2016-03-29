@@ -1,4 +1,4 @@
-# Libraries
+# Libraries: closures, transferrals and staff cuts
 
 This repository contains data used in the story 'Libraries lose a quarter of staff as hundreds close', collected through Freedom of Information requests to library authorities across the UK. This data was complemented by analysis of [CIPFA reports](http://www.cipfa.org/services/statistics/comparative-profiles/public-libraries).
 
