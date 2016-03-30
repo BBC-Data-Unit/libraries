@@ -12,7 +12,7 @@ The story was reported across the BBC, including the following articles online:
 
 The reporting team was Peter Sherlock, Daniel Wainwright, Paul Bradshaw and Antia Geada.
 
-You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk/programmes/b074x312), Nicky Campbell and Eleanor Oldroyd [on 5 Live Breakfast](http://www.bbc.co.uk/programmes/b074z5m5) and **Jeremy Vine** [on Radio 2 here (at 1230)](http://www.bbc.co.uk/programmes/b074lfpf). 
+You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk/programmes/b074x312), Nicky Campbell and Eleanor Oldroyd [on 5 Live Breakfast](http://www.bbc.co.uk/programmes/b074z5m5) and **Jeremy Vine** [on Radio 2 here (at 1230)](http://www.bbc.co.uk/programmes/b074lfpf). Lauren Smith has [linked to a range of local radio coverage on her blog](https://laurensmith.wordpress.com/2011/01/19/radio-marathon/).
 
 ![Image from @bbc5live](https://pbs.twimg.com/media/Ces4VfHWEAAfliU.jpg)
 
