@@ -22,6 +22,10 @@ You can [listen to Radio 4 Today's coverage here (at 0730)](http://www.bbc.co.uk
 
 [BBC Breakfast created this short video for social media showing some key figures](https://twitter.com/BBCBreakfast/status/714703963078176768) and [#libraries trended on Twitter throughout the morning](https://twitter.com/WeNeedLibraries/status/714758162704953347).
 
+By midday Chris Love had used our data to [create a Tableau visualisation of volunteer numbers at each library](https://public.tableau.com/views/LibraryCuts/Cuts?:embed=y&:display_count=yes&:showTabs=y)
+
+![](https://raw.githubusercontent.com/BBC-Data-Unit/libraries/master/librariestableau.png)
+
 ## Other information
 
 The House of Commons Library quoted the BBC research in its [briefing paper on public libraries on April 15, 2016](http://researchbriefings.parliament.uk/ResearchBriefing/Summary/SN05875). This briefing, which we have [uploaded to this repository](https://github.com/BBC-Data-Unit/libraries/blob/master/HouseOfCommons%20Libraries%20Briefing%20SN05875.pdf), also includes data going back to 2005 and including a breakdown of different types of employees. Professional posts, for example, declined at a much faster rate (46% of positions going between 2010 and 2015) than other posts (25% over the same period).
