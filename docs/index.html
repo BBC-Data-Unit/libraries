@@ -54,7 +54,85 @@ In March 2016 we <a href="http://www.bbc.co.uk/news/uk-england-35707956">publish
 <p>
   <h2>Chart 1</h2>
 
-To be placed here
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div><div class="output_subarea output_html rendered_html output_result">
+<style> 
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+ </style>
+<div id="graph-div"><svg width="500" height="300"><g transform="translate(40,20)"><g class="x axis" transform="translate(0,250)"><g class="tick" transform="translate(59,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">A</text></g><g class="tick" transform="translate(166,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">B</text></g><g class="tick" transform="translate(273,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">C</text></g><g class="tick" transform="translate(380,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy=".71em" y="9" x="0" style="text-anchor: middle;">D</text></g><path class="domain" d="M0,6V0H440V6"></path></g><g class="y axis"><g class="tick" transform="translate(0,250)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.0</text></g><g class="tick" transform="translate(0,225)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.1</text></g><g class="tick" transform="translate(0,200)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.2</text></g><g class="tick" transform="translate(0,175)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.3</text></g><g class="tick" transform="translate(0,150)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.4</text></g><g class="tick" transform="translate(0,125)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.5</text></g><g class="tick" transform="translate(0,100)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.6</text></g><g class="tick" transform="translate(0,75.00000000000001)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.7</text></g><g class="tick" transform="translate(0,49.999999999999986)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.8</text></g><g class="tick" transform="translate(0,24.999999999999993)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">0.9</text></g><g class="tick" transform="translate(0,0)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" style="text-anchor: end;">1.0</text></g><path class="domain" d="M-6,0H0V250H-6"></path></g><rect class="bar" x="11" width="96" y="146.82239387124378" height="103.17760612875622"></rect><rect class="bar" x="118" width="96" y="45.76499747955815" height="204.23500252044187"></rect><rect class="bar" x="225" width="96" y="31.910869419292386" height="218.0891305807076"></rect><rect class="bar" x="332" width="96" y="79.2311119296901" height="170.7688880703099"></rect></g></svg></div>
+<script> 
+
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 500 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var svg = d3.select("#graph-div").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var data = [{"y": 1, "letter": "A"}, {"y": 1, "letter": "B"}, {"y": 1, "letter": "C"}, {"y": 1, "letter": "D"}] ;
+
+  x.domain(data.map(function(d) { return d.letter; }));
+  y.domain([0, d3.max(data, function(d) { return d.y; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.letter); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.y); })
+      .attr("height", function(d) { return height - y(d.y); });
+
+ </script>
+</div></div>
 </div>
   <div class="col-md-4">
 <h2>Chart 2</h2>
