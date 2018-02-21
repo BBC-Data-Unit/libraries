@@ -4,17 +4,17 @@ In this folder you will find a spreadsheet with the 3 main datasets from the BBC
 
 ## Upload and familiarise yourself with the data
 
-Open one of the datasets in Excel, or in Google Sheets (make sure it's converted to a Google Sheet by uploading to Google Drive and then right-clicking and selecting *Open with > Google Sheets*).
+Open [the spreadsheet with all 3 sets of data from the investigation](https://github.com/BBC-Data-Unit/libraries/blob/master/exercise/librariesdata_3sheets.xlsx), then click the **Download** button to download it to your computer. Open it in Excel, or in Google Sheets (make sure it's converted to a Google Sheet by uploading to Google Drive and then right-clicking and selecting *Open with > Google Sheets*).
 
 First, take a look at the column headings. Think about what stories each of those pieces of information might provide.
 
-There might also be information that you don't quite understand - for example, what does 'Cost Centre' mean (in the local authority spending data)? And what do the codes in that column refer to? You may need to do some extra research (including phonecalls) to understand jargon, and you might need extra data to make sense of it (for example what codes refer to).
+There might also be information that you don't quite understand. You may need to do some extra research (including phonecalls) to understand jargon, and you might need extra data to make sense of it (for example what codes refer to).
 
 It's also useful to think about the type of data in each column. I want to highlight a few things in particular:
 
 * **Numbers** will normally be right-aligned in Excel and Google Sheets
 * **Text** will normally be left-aligned
-* **Dates** *should* be stored as numbers - in other words, they should be right-aligned. The date that you see (for example "07/08/2017") is actually just the way the number is *formatted*. You can format a date in all sorts of ways, but the important thing to remember is that they can be sorted, and used in calculations (for example the number of days between dates). If what appears to be a date is actually left-aligned, and doesn't sort properly, then that means you have **DIRTY DATA!** and you'll need to come up with tricks if you want to work with that data in some way (the European Investment Bank data suffers from this problem).
+* **Dates** *should* be stored as numbers - in other words, they should be right-aligned. The date that you see (for example "07/08/2017") is actually just the way the number is *formatted*. You can format a date in all sorts of ways, but the important thing to remember is that they can be sorted, and used in calculations (for example the number of days between dates). If what appears to be a date is actually left-aligned, and doesn't sort properly, then that means you have **DIRTY DATA!** and you'll need to come up with tricks if you want to work with that data in some way.
 
 The type of data dictates what you can do with it. For example, you can perform calculations with numbers (including dates), but not with text. However, you can *measure* text (its length), *test* it (whether it contains certain words), *filter and sort* it, and *extract* information from it, among other things.
 
@@ -58,6 +58,8 @@ Different types of data can be filtered in different ways. Look, for example, at
 * **Numerical column** filters will also show a list of all the values - but this time the *Choose one* drop-down menu presents options like 'greater than', 'less than', 'does not equal', 'between' (certain numbers) and even 'Top 10', 'Bottom 10', and above or below average.
 * **Date column** filters show a list of values which is *nested*: so for example years are at one level, the months within each year are slightly indented, and the dates within each month are then further indented still. This means that you can select or deselect a whole year without having to untick each month. The *Choose one* drop-down menu includes some of the numerical filter options like 'greater than', etc., but it also includes date-specific ones like 'Next week', 'Last week', 'This quarter' and so on.
 
+
+* How might you use filters to zoom into your data?
 
 ## Calculating percentages
 
@@ -112,6 +114,12 @@ Or so:
 
 `=(B2-A2)/A2`
 
+
+
+* What story can you tell about change?
+* What story can you tell about percentages?
+* What questions do those stories raise - and who do you need to talk to next?
+* What other ingredients might you need to make this story stronger?
 
 ## Some data to play with
 
